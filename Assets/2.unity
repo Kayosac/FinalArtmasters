@@ -458,10 +458,10 @@ MonoBehaviour:
   maxTessellationFactor: 10
   tessellationFactorFadeStart: 150
   tessellationFactorFadeRange: 1850
-  refractionColor: {r: 0, g: 0.91366273, b: 1, a: 1}
+  refractionColor: {r: 1, g: 1, b: 1, a: 1}
   maxRefractionDistance: 3.5
   absorptionDistance: 0.001
-  scatteringColor: {r: 0.15592645, g: 1, b: 0.5500005, a: 1}
+  scatteringColor: {r: 0, g: 0.4245691, b: 1, a: 1}
   ambientScattering: 1
   heightScattering: 1
   displacementScattering: 1
@@ -567,7 +567,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   repetitionSize: 1175
   largeOrientationValue: 141.2
-  largeWindSpeed: 47
+  largeWindSpeed: 250
   largeChaos: 1
   largeBand0Multiplier: 1
   largeBand0FadeMode: 1

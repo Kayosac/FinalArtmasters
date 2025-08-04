@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -24,7 +24,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 10.640316
+    m_Value: 0.8114064
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -212,10 +212,10 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   contrast:
     m_OverrideState: 1
-    m_Value: -28
+    m_Value: 25
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.986, g: 0.9927879, b: 1, a: 1}
@@ -224,7 +224,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: 25
+    m_Value: -52
 --- !u!114 &-2433204136982418804
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -248,10 +248,10 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   planetRadius:
-    m_OverrideState: 0
-    m_Value: 6378.1
+    m_OverrideState: 1
+    m_Value: 1000
   renderingSpace:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   centerMode:
     m_OverrideState: 0
@@ -260,11 +260,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0, y: -6378.1, z: 0}
   windOrientation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 182
   windSpeed:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1000
   fogType:
     m_OverrideState: 0
     m_Value: 0
@@ -660,10 +660,10 @@ MonoBehaviour:
     m_Value: 100
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 98.2
+    m_Value: 100
   enableVolumetricFog:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   albedo:
     m_OverrideState: 1
     m_Value: {r: 0.740566, g: 0.939822, b: 1, a: 1}
@@ -672,7 +672,7 @@ MonoBehaviour:
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 250
   denoisingMode:
     m_OverrideState: 0
     m_Value: 2
@@ -718,7 +718,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   useFullACES:
     m_OverrideState: 0
     m_Value: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7649d9368d3a5c4ab8ad01a63e04962, type: 3}
   m_Name: ChannelMixer
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   redOutRedIn:
     m_OverrideState: 1
     m_Value: 101.1
@@ -854,13 +854,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {r: 0.20392157, g: 0.34058976, b: 0.54901963, a: 1}
+    m_Value: {r: 0.20392157, g: 0.44223458, b: 0.54901963, a: 1}
   highlights:
     m_OverrideState: 1
-    m_Value: {r: 0.8372363, g: 0.92941177, b: 0.31372547, a: 1}
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   balance:
     m_OverrideState: 1
-    m_Value: -27
+    m_Value: -13
 --- !u!114 &6021795463033441728
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     m_Value: 0.5
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.171
+    m_Value: 0.153
   shapeFactor:
     m_OverrideState: 1
     m_Value: 0.714
@@ -1157,7 +1157,7 @@ MonoBehaviour:
     m_Value: 1
   shadowResolution:
     m_OverrideState: 1
-    m_Value: 256
+    m_Value: 1024
   shadowDistance:
     m_OverrideState: 0
     m_Value: 8000
@@ -1258,10 +1258,10 @@ MonoBehaviour:
     m_Value: 55261.973
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.051
+    m_Value: 0.128
   aerosolTint:
-    m_OverrideState: 1
-    m_Value: {r: 1, g: 0.8343466, b: 0.69411767, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 0.8433427, b: 0.69411767, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 0
     m_Value: 8289.296
@@ -1311,8 +1311,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   horizonTint:
-    m_OverrideState: 1
-    m_Value: {r: 0.97647065, g: 0.7176471, b: 0.27450982, a: 1}
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
   zenithTint:
     m_OverrideState: 1
     m_Value: {r: 0.6556604, g: 0.86196744, b: 1, a: 1}
