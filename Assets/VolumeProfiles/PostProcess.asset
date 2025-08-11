@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c1be1b6c95cd2e41b27903b9270817f, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
     m_Value: {x: 1, y: 1, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 1, z: 1, w: 0}
+    m_Value: {x: 1, y: 1, z: 1, w: 0.37700287}
   gain:
     m_OverrideState: 1
     m_Value: {x: 1, y: 1, z: 1, w: 0.46169996}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6b00fcf518bb94a90b408492e07b44, type: 3}
   m_Name: FilmGrain
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   type:
     m_OverrideState: 1
     m_Value: 0
@@ -392,7 +392,7 @@ MonoBehaviour:
     m_Value: 1
   contrast:
     m_OverrideState: 1
-    m_Value: 25
+    m_Value: 36
   colorFilter:
     m_OverrideState: 1
     m_Value: {r: 0.986, g: 0.9927879, b: 1, a: 1}
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_Value: 0
   saturation:
     m_OverrideState: 1
-    m_Value: -52
+    m_Value: -46
 --- !u!114 &-1689632406883668876
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -419,11 +419,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   rayTracing:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 4
   directLightingStrength:
     m_OverrideState: 1
     m_Value: 0.2
@@ -993,7 +993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42ef2681fa3dc8c4fa031f044e68c63f, type: 3}
   m_Name: GlobalIllumination
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   quality:
     m_OverrideState: 0
     m_Value: 1
@@ -1127,14 +1127,14 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   tracing:
-    m_OverrideState: 0
-    m_Value: 1
-  m_MinSmoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 2
+  m_MinSmoothness:
+    m_OverrideState: 0
+    m_Value: 0.4
   m_SmoothnessFadeStart:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 0.5
   reflectSky:
     m_OverrideState: 1
     m_Value: 1
@@ -1207,7 +1207,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 2
   m_FullResolution:
     m_OverrideState: 0
