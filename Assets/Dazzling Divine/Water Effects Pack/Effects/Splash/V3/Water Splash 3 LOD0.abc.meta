@@ -1,8 +1,21 @@
 fileFormatVersion: 2
 guid: 0c7c95f8c5f70dd4eaeede4d9bcf1ace
+AssetOrigin:
+  serializedVersion: 1
+  productId: 255046
+  packageName: 3D Water Effect Alembics Pack
+  packageVersion: 1.0
+  assetPath: Assets/Dazzling Divine/Water Effects Pack/Effects/Splash/V3/Water Splash
+    3 LOD0.abc
+  uploadId: 600411
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'alembic1/clean2:000:'
+    second: {fileID: 2100000, guid: ecab9add6dc692542ab29756ebf5f91a, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -10,6 +23,7 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: f53f5fc499d31e44b9deee84d28a9ee8, type: 3}
   rootGameObjectId: Blood Splash 3 LOD0
   rootGameObjectName: Blood Splash 3 LOD0
+  importerVersion: 1
   streamSettings:
     normals: 1
     tangents: 1
@@ -35,11 +49,3 @@ ScriptedImporter:
   importWarning: 
   firstImport: 0
   isHDF5: 0
-AssetOrigin:
-  serializedVersion: 1
-  productId: 255046
-  packageName: 3D Water Effect Alembics Pack
-  packageVersion: 1.0
-  assetPath: Assets/Dazzling Divine/Water Effects Pack/Effects/Splash/V3/Water Splash
-    3 LOD0.abc
-  uploadId: 600411
