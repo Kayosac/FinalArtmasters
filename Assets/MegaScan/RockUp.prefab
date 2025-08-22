@@ -1,0 +1,1066 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &290374115504411008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4454672331926915430}
+  m_Layer: 0
+  m_Name: RockPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4454672331926915430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290374115504411008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 877888251212113702}
+  m_Father: {fileID: 6362245413998441050}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6782035098138735348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6362245413998441050}
+  m_Layer: 0
+  m_Name: RockUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6362245413998441050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782035098138735348}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7933525, z: -0, w: 0.6087625}
+  m_LocalPosition: {x: 10.29, y: -3.91, z: 2.93}
+  m_LocalScale: {x: 1.6187, y: 1.6187, z: 1.6187}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4454672331926915430}
+  - {fileID: 5641062369367324608}
+  - {fileID: 4871446247345359214}
+  - {fileID: 3845315577832915178}
+  - {fileID: 7423124335849950053}
+  - {fileID: 1234791550517254404}
+  - {fileID: 9124350469423769151}
+  - {fileID: 8330968662022817370}
+  - {fileID: 3129701556260363987}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 105, z: 0}
+--- !u!1001 &442282241865598628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 1535128558272351101, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.639
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120393908281945441, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 1 High (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+--- !u!4 &4354712965767241803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+  m_PrefabInstance: {fileID: 442282241865598628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1676741909185591970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 1535128558272351101, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120393908281945441, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 1 High
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+--- !u!4 &3245049021118585933 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4200804045172303599, guid: 9a6fe11f67b5d5b4382f07a1e79d23fa, type: 3}
+  m_PrefabInstance: {fileID: 1676741909185591970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1854741033167046357
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4454672331926915430}
+    m_Modifications:
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.63928974
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.931006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.88423043
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000006831701
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000039289088
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000000275153
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2222648730854603593, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: m_Name
+      value: SM_Huge_Nordic_Coastal_Cliff_venrdcgga_02_N1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537891079120891653, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7028f08b01ba96845b9b79cfdfc39e3d, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3245049021118585933}
+    - targetCorrespondingSourceObject: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4354712965767241803}
+    - targetCorrespondingSourceObject: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4129789990422890060}
+    - targetCorrespondingSourceObject: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1839153006283549689}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2222648730854603593, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2195745662728058867}
+  m_SourcePrefab: {fileID: 100100000, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+--- !u!1 &532887218420514204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2222648730854603593, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+  m_PrefabInstance: {fileID: 1854741033167046357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2195745662728058867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532887218420514204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfe3123727ad6a4fbb7af3ee7faadf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeAmount: 0
+  shake: 1
+  baseFrequency: 2
+  baseAmplitude: {x: 0, y: 0, z: 0}
+  baseRotationAmplitude: {x: 5, y: 5, z: 5}
+  smoothSpeed: 5
+--- !u!4 &877888251212113702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1554796930255544819, guid: fca597e5a93433948b2e893500fb6fc9, type: 3}
+  m_PrefabInstance: {fileID: 1854741033167046357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2101220611642141318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 506737167368152, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.349
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.806
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330147738841904247, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 3 High
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+--- !u!4 &1839153006283549689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+  m_PrefabInstance: {fileID: 2101220611642141318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3131450243193287726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5227804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.866026
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.49999908
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974717955983344155, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978477618625692961, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 1 High (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+--- !u!4 &3845315577832915178 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+  m_PrefabInstance: {fileID: 3131450243193287726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3441343931136417708
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 506737167368152, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.79376
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.79376
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.79376
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330147738841904247, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 3 High (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+--- !u!4 &3129701556260363987 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 336911155974357375, guid: 3de459a6ee5b9164bbd30b8e7c094f23, type: 3}
+  m_PrefabInstance: {fileID: 3441343931136417708}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3486325474734166378
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 984951845002491554, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15494013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.00000166893
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432481860534659539, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 3 High
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+--- !u!4 &1234791550517254404 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+  m_PrefabInstance: {fileID: 3486325474734166378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4357143776245846891
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 117538744197747309, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.576
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501828084099731278, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 2 High
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+--- !u!4 &4129789990422890060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+  m_PrefabInstance: {fileID: 4357143776245846891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5792050323454362372
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5227804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6087625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7933525
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974717955983344155, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978477618625692961, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 1 High
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+--- !u!4 &5641062369367324608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+  m_PrefabInstance: {fileID: 5792050323454362372}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6751654298028309930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5227804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.121190995
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99262923
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -193.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974717955983344155, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978477618625692961, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 1 High (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+--- !u!4 &4871446247345359214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+  m_PrefabInstance: {fileID: 6751654298028309930}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6909369257662672465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 984951845002491554, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8073
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.107257
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.15494013
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.894434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99144447
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1305297
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 345
+      objectReference: {fileID: 0}
+    - target: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432481860534659539, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 3 High (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+--- !u!4 &9124350469423769151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2396819707510442094, guid: abe468b01325e3346ae85d4b75f0eabb, type: 3}
+  m_PrefabInstance: {fileID: 6909369257662672465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8549471377020081021
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 117538744197747309, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.721
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.293
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3501828084099731278, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+      propertyPath: m_Name
+      value: Water Dripping 2 High (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+--- !u!4 &8330968662022817370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 376148632827516199, guid: f9a8328d8162dba4984ea004fdb61b5f, type: 3}
+  m_PrefabInstance: {fileID: 8549471377020081021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8731449450959847329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6362245413998441050}
+    m_Modifications:
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5227804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0884
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.8001113
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.4981256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9683178
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.24972115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -28.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974717955983344155, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: currentTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7978477618625692961, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+      propertyPath: m_Name
+      value: Splashing Through Water Type 1 High (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+--- !u!4 &7423124335849950053 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2173104754561479876, guid: 187ba913038806b439e7ec6f18f7923e, type: 3}
+  m_PrefabInstance: {fileID: 8731449450959847329}
+  m_PrefabAsset: {fileID: 0}
