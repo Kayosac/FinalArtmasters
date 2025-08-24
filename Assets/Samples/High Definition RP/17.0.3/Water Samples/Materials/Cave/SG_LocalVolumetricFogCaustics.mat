@@ -69,8 +69,8 @@ Material:
     - _FogVolumeFogDistanceProperty: 2
     - _FogVolumeSrcAlphaBlend: 1
     - _FogVolumeSrcColorBlend: 1
-    - _Power: 0.31
-    - _Scale: 1.71
+    - _Power: 500
+    - _Scale: 500
     m_Colors:
     - _FogVolumeSingleScatteringAlbedo: {r: 1, g: 1, b: 1, a: 1}
     - _Tiling: {r: 0.5, g: 0.5, b: 0, a: 0}
