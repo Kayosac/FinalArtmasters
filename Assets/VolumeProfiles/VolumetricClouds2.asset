@@ -268,7 +268,7 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value:
       mode: 0
-      customValue: 10000
+      customValue: 5000
       additiveValue: 0
       multiplyValue: 1
   orientation:
